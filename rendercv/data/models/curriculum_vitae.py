@@ -465,6 +465,17 @@ class CurriculumVitae(RenderCVBaseModelWithExtraKeys):
                     "placeholder": phone_placeholder,
                 }
             )
+            
+        if self.phone2 is not None:
+            phone_placeholder = computers.format_phone_number(self.phone2)
+            connections.append(
+                {
+                    "latex_icon": "\\faPhone*",
+                    "url": self.phone2,
+                    "clean_url": phone_placeholder,
+                    "placeholder": phone_placeholder,
+                }
+            )
 
         if self.website is not None:
             website_placeholder = computers.make_a_url_clean(str(self.website))
