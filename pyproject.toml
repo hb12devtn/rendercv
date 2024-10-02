@@ -61,9 +61,9 @@ path = "rendercv/__init__.py"
 
 [project]
 # Under the `project` section, we specify the metadata about RenderCV.
-name = 'rendercv'
+name = 'rendercv_hb'
 description = 'A LaTeX CV/resume framework'
-authors = [{ name = 'Sina Atalay', email = 'dev@atalay.biz' }]
+authors = [{ name = 'Hamdi Bougattaya', email = 'h.bougattaya1212@gmail.com' }]
 license = "MIT"
 readme = "README.md"
 requires-python = '>=3.10'
@@ -99,7 +99,7 @@ dynamic = [
 [project.urls]
 # Here, we can specify the URLs related to RenderCV. They will be listed under the
 # "Project links" section in PyPI. See https://pypi.org/project/rendercv/
-Source = 'https://github.com/sinaatalay/rendercv'
+Source = 'https://github.com/hb12devtn/rendercv'
 Documentation = 'https://docs.rendercv.com'
 Changelog = 'https://docs.rendercv.com/changelog'
 
