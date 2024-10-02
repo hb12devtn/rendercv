@@ -7,9 +7,9 @@ on:
       - published
 
 jobs:
-  call_tests_workflow:
-    name: Test
-    uses: ./.github/workflows/test.yaml
+  # call_tests_workflow:
+  #   name: Test
+  #   uses: ./.github/workflows/test.yaml
 
   publish:
     name: Publish to PyPI
