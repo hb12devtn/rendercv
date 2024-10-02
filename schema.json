@@ -232,19 +232,6 @@
             }
           ]
         },
-        "phone2": {
-          "default": null,
-          "description": "The second phone number of the person, including the country code.",
-          "title": "Phone",
-          "oneOf": [
-            {
-              "format": "phone",
-              "maxLength": 64,
-              "minLength": 7,
-              "type": "string"
-            }
-          ]
-        },
         "website": {
           "default": null,
           "description": "The website of the person.",
