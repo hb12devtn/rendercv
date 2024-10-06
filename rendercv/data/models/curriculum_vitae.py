@@ -466,12 +466,12 @@ class CurriculumVitae(RenderCVBaseModelWithExtraKeys):
                 }
             )
             
-        if self.phone2 is not None:
-            phone_placeholder = computers.format_phone_number(self.phone2)
+        if self.whatsapp is not None:
+            phone_placeholder = computers.format_phone_number(self.whatsapp)
             connections.append(
                 {
-                    "latex_icon": "\\faPhone*",
-                    "url": self.phone2,
+                    "latex_icon": "\\faWhatsapp*",
+                    "url": self.whatsapp,
                     "clean_url": phone_placeholder,
                     "placeholder": phone_placeholder,
                 }
