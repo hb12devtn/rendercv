@@ -470,7 +470,7 @@ class CurriculumVitae(RenderCVBaseModelWithExtraKeys):
             phone_placeholder = computers.format_phone_number(self.whatsapp)
             connections.append(
                 {
-                    "latex_icon": "\\faWhatsapp*",
+                    "latex_icon": "\\faWhatsapp",
                     "url": self.whatsapp,
                     "clean_url": phone_placeholder,
                     "placeholder": phone_placeholder,
